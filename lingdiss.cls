@@ -497,7 +497,7 @@ LaTex2e]
 % Change names of table of contents and bibliography
 
 \renewcommand{\contentsname}{Table of Contents}
-\renewcommand{\bibname}{References}
+\renewcommand{\bibname}{\clearpage\phantomsection\addcontentsline{toc}{chapter}{References} References}
 
 %% All the citation style stuff from lsalike
 \let\@internalcite\cite
@@ -609,7 +609,7 @@ LaTex2e]
 % \setlength{\footskip}{0.35in}
 \setlength{\textheight}{\myHh}
 \setlength{\footskip}{\myFh} 
-  \begin{singlespace}
+\begin{singlespace}
     \oldtableofcontents
   \end{singlespace}
 \setlength{\textheight}{\myH}
