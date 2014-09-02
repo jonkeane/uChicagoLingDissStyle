@@ -648,4 +648,9 @@ LaTex2e]
 \setlength{\footskip}{\myF} 
 }
 
+
+% for reducing the presence of widows and orphans.
+\widowpenalty10000
+\clubpenalty10000
+
 % End of File
