@@ -497,7 +497,7 @@ LaTex2e]
 % Change names of table of contents and bibliography
 
 \renewcommand{\contentsname}{Table of Contents}
-\renewcommand{\bibname}{\clearpage\phantomsection\addcontentsline{toc}{chapter}{References} References}
+\renewcommand{\bibname}{\phantomsection\addcontentsline{toc}{chapter}{References} References}
 
 %% All the citation style stuff from lsalike
 \let\@internalcite\cite
